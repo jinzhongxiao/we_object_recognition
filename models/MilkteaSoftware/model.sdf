@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+  <model name="MilkteaSoftware">
+    <static>true</static>
+    <link name="link">
+      <collision name="collision">
+        <geometry>
+          <box>
+            <size>20 20 .1</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name="visual">
+      
+
+           <geometry>  
+            <mesh><uri>model://MilkteaSoftware/meshes/MilkteaSoftware.dae</uri>
+            <scale>0.005 0.005 0.01</scale></mesh>  
+          </geometry> 
+
+
+      
+       
+      </visual>
+    </link>
+  </model>
+</sdf>
